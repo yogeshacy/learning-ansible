@@ -1,4 +1,11 @@
-- name: first play book
+- name: first play book. play1
+  hosts: all
+  tasks:
+    - name: print Hello
+      ansible.builtin.debug:
+        msg: Hello ansible..
+
+- name: first play book play2 
   hosts: all
   tasks:
     - name: print Hello
