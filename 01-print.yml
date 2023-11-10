@@ -5,7 +5,7 @@
       ansible.builtin.debug:
         msg: Hello ansible..
 
-- name: first play book play2 
+- name: first play book play2
   hosts: all
   tasks:
     - name: print Hello
